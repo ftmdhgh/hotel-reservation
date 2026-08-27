@@ -132,4 +132,8 @@ MAILERS = {
     },
 }
 
+#introduce the new user model to django
 AUTH_USER_MODEL = 'core.User'
+
+#sets the id type
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
